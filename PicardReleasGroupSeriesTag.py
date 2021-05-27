@@ -1,12 +1,14 @@
 PLUGIN_NAME = "Release Group Series Tag"
 PLUGIN_AUTHOR = "imolb"
 PLUGIN_DESCRIPTION = """
-The plugin sets a user defined tag TXXX:releasegroupseries indicating the release group series from MusicBrainz
+The plugin sets a user defined tag TXXX:releasegroupseries indicating the release group series from MusicBrainz databse.
 """
 PLUGIN_VERSION = '0.1'
 PLUGIN_API_VERSIONS = ['2.0', '2.1', '2.2']
-PLUGIN_LICENSE = "GPL-3.0-or-later"
-PLUGIN_LICENSE_URL = "https://www.gnu.org/licenses/gpl-3.0.html"
+PLUGIN_LICENSE = "GPL-2.0"
+PLUGIN_LICENSE_URL = "https://www.gnu.org/licenses/gpl-2.0.html"
+# Plugin created 2021 by modification of the metabrain/picard-plugins/albumartist_website plugin
+# https://github.com/metabrainz/picard-plugins/blob/2.0/plugins/albumartist_website/albumartist_website.py
 
 USER_DEFINED_TAG_NAME = "releasegroupseries"
 
