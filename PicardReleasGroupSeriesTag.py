@@ -10,16 +10,6 @@ PLUGIN_LICENSE_URL = "https://www.gnu.org/licenses/gpl-3.0.html"
 
 USER_DEFINED_TAG_NAME = "releasegroupseries"
 
-#from picard.metadata import register_album_metadata_processor
-
-
-#def set_release_group_series_tag(album, album_metadata, release_metadata):
-#    album_metadata[USER_DEFINED_TAG_NAME] = "Release Group Series Name"
-#
-# https://musicbrainz.org/ws/2/release-group/7d2675cb-c18f-3a9a-b2dd-d553fd789d51?inc=series-rels&fmt=json
-
-#register_album_metadata_processor(set_release_group_series_tag)
-
 from picard import config, log
 from picard.util import LockableObject
 from picard.metadata import register_track_metadata_processor
